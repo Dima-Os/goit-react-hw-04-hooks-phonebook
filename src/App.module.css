@@ -1,0 +1,15 @@
+.mainHeading {
+  text-transform: uppercase;
+  position: relative;
+}
+.mainHeading::after {
+  content: '';
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-image: url(./img/phone-book-svgrepo-com.svg);
+  position: absolute;
+  block-size: cover;
+  top: -3px;
+  right: 0;
+}
